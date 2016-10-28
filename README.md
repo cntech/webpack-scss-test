@@ -23,32 +23,32 @@ bundle.js.map  1.6 kB       0  [emitted]  main
     + 1 hidden modules
 
 ERROR in ./src/styles/app.scss
-Module build failed: ModuleNotFoundError: Module not found: Error: Cannot resolve 'file' or 'directory' ./font-files/CWB0XYA8bzo0kSThX0UTuA.woff2 in C:\Users\Chris.Niederreiter\Documents\tmp\webpack\webpack-scss-test\src\styles
-    at C:\Users\Chris.Niederreiter\Documents\tmp\webpack\webpack-scss-test\node_modules\webpack\lib\Compilation.js:229:38
-    at onDoneResolving (C:\Users\Chris.Niederreiter\Documents\tmp\webpack\webpack-scss-test\node_modules\webpack\lib\NormalModuleFactory.js:29:20)
-    at C:\Users\Chris.Niederreiter\Documents\tmp\webpack\webpack-scss-test\node_modules\webpack\lib\NormalModuleFactory.js:85:20
-    at C:\Users\Chris.Niederreiter\Documents\tmp\webpack\webpack-scss-test\node_modules\webpack\node_modules\async\lib\async.js:726:13
-    at C:\Users\Chris.Niederreiter\Documents\tmp\webpack\webpack-scss-test\node_modules\webpack\node_modules\async\lib\async.js:52:16
-    at done (C:\Users\Chris.Niederreiter\Documents\tmp\webpack\webpack-scss-test\node_modules\webpack\node_modules\async\lib\async.js:241:17)
-    at C:\Users\Chris.Niederreiter\Documents\tmp\webpack\webpack-scss-test\node_modules\webpack\node_modules\async\lib\async.js:44:16
-    at C:\Users\Chris.Niederreiter\Documents\tmp\webpack\webpack-scss-test\node_modules\webpack\node_modules\async\lib\async.js:723:17
-    at C:\Users\Chris.Niederreiter\Documents\tmp\webpack\webpack-scss-test\node_modules\webpack\node_modules\async\lib\async.js:167:37
-    at C:\Users\Chris.Niederreiter\Documents\tmp\webpack\webpack-scss-test\node_modules\enhanced-resolve\lib\UnsafeCachePlugin.js:24:19
-    at onResolved (C:\Users\Chris.Niederreiter\Documents\tmp\webpack\webpack-scss-test\node_modules\enhanced-resolve\lib\Resolver.js:38:18)
-    at C:\Users\Chris.Niederreiter\Documents\tmp\webpack\webpack-scss-test\node_modules\enhanced-resolve\lib\Resolver.js:127:10
-    at C:\Users\Chris.Niederreiter\Documents\tmp\webpack\webpack-scss-test\node_modules\enhanced-resolve\lib\Resolver.js:191:15
-    at applyPluginsParallelBailResult.createInnerCallback.log (C:\Users\Chris.Niederreiter\Documents\tmp\webpack\webpack-scss-test\node_modules\enhanced-resolve\lib\Resolver.js:110:4)
-    at loggingCallbackWrapper (C:\Users\Chris.Niederreiter\Documents\tmp\webpack\webpack-scss-test\node_modules\enhanced-resolve\lib\createInnerCallback.js:21:19)
-    at C:\Users\Chris.Niederreiter\Documents\tmp\webpack\webpack-scss-test\node_modules\tapable\lib\Tapable.js:134:6
-    at Tapable.<anonymous> (C:\Users\Chris.Niederreiter\Documents\tmp\webpack\webpack-scss-test\node_modules\enhanced-resolve\lib\DirectoryDescriptionFilePlugin.js:24:12)
-    at Storage.finished (C:\Users\Chris.Niederreiter\Documents\tmp\webpack\webpack-scss-test\node_modules\enhanced-resolve\lib\CachedInputFileSystem.js:38:16)
-    at ReadFileContext.callback (C:\Users\Chris.Niederreiter\Documents\tmp\webpack\webpack-scss-test\node_modules\graceful-fs\graceful-fs.js:78:16)
+Module build failed: ModuleNotFoundError: Module not found: Error: Cannot resolve 'file' or 'directory' ./font-files/CWB0XYA8bzo0kSThX0UTuA.woff2 in C:\path\to\webpack-scss-test\src\styles
+    at C:\path\to\webpack-scss-test\node_modules\webpack\lib\Compilation.js:229:38
+    at onDoneResolving (C:\path\to\webpack-scss-test\node_modules\webpack\lib\NormalModuleFactory.js:29:20)
+    at C:\path\to\webpack-scss-test\node_modules\webpack\lib\NormalModuleFactory.js:85:20
+    at C:\path\to\webpack-scss-test\node_modules\webpack\node_modules\async\lib\async.js:726:13
+    at C:\path\to\webpack-scss-test\node_modules\webpack\node_modules\async\lib\async.js:52:16
+    at done (C:\path\to\webpack-scss-test\node_modules\webpack\node_modules\async\lib\async.js:241:17)
+    at C:\path\to\webpack-scss-test\node_modules\webpack\node_modules\async\lib\async.js:44:16
+    at C:\path\to\webpack-scss-test\node_modules\webpack\node_modules\async\lib\async.js:723:17
+    at C:\path\to\webpack-scss-test\node_modules\webpack\node_modules\async\lib\async.js:167:37
+    at C:\path\to\webpack-scss-test\node_modules\enhanced-resolve\lib\UnsafeCachePlugin.js:24:19
+    at onResolved (C:\path\to\webpack-scss-test\node_modules\enhanced-resolve\lib\Resolver.js:38:18)
+    at C:\path\to\webpack-scss-test\node_modules\enhanced-resolve\lib\Resolver.js:127:10
+    at C:\path\to\webpack-scss-test\node_modules\enhanced-resolve\lib\Resolver.js:191:15
+    at applyPluginsParallelBailResult.createInnerCallback.log (C:\path\to\webpack-scss-test\node_modules\enhanced-resolve\lib\Resolver.js:110:4)
+    at loggingCallbackWrapper (C:\path\to\webpack-scss-test\node_modules\enhanced-resolve\lib\createInnerCallback.js:21:19)
+    at C:\path\to\webpack-scss-test\node_modules\tapable\lib\Tapable.js:134:6
+    at Tapable.<anonymous> (C:\path\to\webpack-scss-test\node_modules\enhanced-resolve\lib\DirectoryDescriptionFilePlugin.js:24:12)
+    at Storage.finished (C:\path\to\webpack-scss-test\node_modules\enhanced-resolve\lib\CachedInputFileSystem.js:38:16)
+    at ReadFileContext.callback (C:\path\to\webpack-scss-test\node_modules\graceful-fs\graceful-fs.js:78:16)
     at FSReqWrap.readFileAfterOpen [as oncomplete] (fs.js:365:13)
  @ ./src/app.js 1:0-28
 Child extract-text-webpack-plugin:
         + 2 hidden modules
 
     ERROR in ./~/css-loader?sourceMap!./~/sass-loader?sourceMap!./src/styles/app.scss
-    Module not found: Error: Cannot resolve 'file' or 'directory' ./font-files/CWB0XYA8bzo0kSThX0UTuA.woff2 in C:\Users\Chris.Niederreiter\Documents\tmp\webpack\webpack-scss-test\src\styles
+    Module not found: Error: Cannot resolve 'file' or 'directory' ./font-files/CWB0XYA8bzo0kSThX0UTuA.woff2 in C:\path\to\webpack-scss-test\src\styles
      @ ./~/css-loader?sourceMap!./~/sass-loader?sourceMap!./src/styles/app.scss 6:184-236
 ```
