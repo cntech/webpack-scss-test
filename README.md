@@ -1,5 +1,16 @@
 # Webpack SCSS Test
 
+## Run it
+
+Make sure SASS is installed on you machine.
+
+```
+$ git clone https://github.com/cntech/webpack-scss-test.git
+$ cd webpack-scss-test
+$ npm install
+$ webpack # this will crash
+```
+
 ## Issues
 
 ### Relative paths do not work
