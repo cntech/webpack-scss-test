@@ -5,16 +5,6 @@ var fileLoader = require.resolve('file-loader');
 var urlLoader = require.resolve('url-loader');
 module.exports = {
     entry: './src/app.js',
-    // resolve: {
-    //     root: [
-    //         './',
-    //         '../../nxaWebModules/',
-    //         '../../nxaWebModules/nxaShare',
-    //         '../../nxaWebModules/nxaShare/node_modules',
-    //         '../../nxaWebModules/nxaShare/bower_components',
-    //         'www/scripts'
-    //     ]
-    // },
     output: {
         path: 'dist/',
         filename: 'bundle.js'
